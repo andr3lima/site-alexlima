@@ -19,9 +19,10 @@ $(function() {
             url: "../email/service-email.php",
             data: dados,
             success(response) {
-                console.log(response)
+                alert(response)
             },
             fail(error) {
+                alert('Erro :(')
                 console.log(error)
             }
         })

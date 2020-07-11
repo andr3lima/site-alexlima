@@ -6,6 +6,7 @@ class Email
     private $subject;
     private $message;
     private $headers;
+    private $anexo;
 
     public function getMessage()
     {
@@ -17,7 +18,7 @@ class Email
         
                         <body>
                             <p>Parabéns pela escolha de ter uma vida saudável, segue em anexo o nosso e-book</p>
-                            <p>Aslap</p>
+                            <p>Aslap: '.$this->getAnexo().'</p>
                         </body>
                     </html>
         ';
@@ -46,12 +47,36 @@ class Email
         return $this->subject;
     }
 
+    public function getAnexo()
+    {
+        // Ou arquivo local
+        $path = 'e-book.pdf';
+        $fileType = mime_content_type( $path );
+        $fileName = basename( $path );
+
+        // Pegando o conteúdo do arquivo
+        $fp = fopen( $path, "rb" ); // abre o arquivo enviado
+        $anexo = fread( $fp, filesize( $path ) ); // calcula o tamanho
+        $anexo = chunk_split(base64_encode( $anexo )); // codifica o anexo em base 64
+        fclose( $fp ); // fecha o arquivo
+
+        /*
+        $mensagem .= "Content-Type: ". $fileType ."; name=\"". $fileName . "\"" . PHP_EOL;
+        $mensagem .= "Content-Transfer-Encoding: base64" . PHP_EOL;
+        $mensagem .= "Content-Disposition: attachment; filename=\"". $fileName . "\"" . PHP_EOL;
+        $mensagem .= "$anexo" . PHP_EOL;
+        $mensagem .= "--$boundary" . PHP_EOL;
+        */
+
+        $this->anexo = $anexo;
+    }
+
     public function setTo($email)
     {
         $this->to = $email;
     }
 
-    public function getTo($email)
+    public function getTo()
     {
         return $this->to;
     }
