@@ -19,7 +19,7 @@ class Email
         
                         <body>
                             <p>Parabéns pela escolha de ter uma vida saudável, segue em anexo o nosso e-book</p>
-                            <p>Aslap: e-book</p>
+                            <p>Aslap: <a href="https://site-alexlima.000webhostapp.com/">e-book</a></p>
                         </body>
                     </html>
         ';
@@ -30,14 +30,12 @@ class Email
     public function getHeaders()
     {
         // To send HTML mail, the Content-type header must be set
-        $headers  = 'MIME-Version: 1.0' . "\r\n";
-        $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+        $this->headers  = 'MIME-Version: 1.0' . "\r\n";
+        $this->headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
 
         // Additional headers
-        $this->headers .= 'To: Mary <mary@example.com>, Kelly <kelly@example.com>' . "\r\n";
-        $this->headers .= 'From: Birthday Reminder <birthday@example.com>' . "\r\n";
-        $this->headers .= 'Cc: birthdayarchive@example.com' . "\r\n";
-        $this->headers .= 'Bcc: birthdaycheck@example.com' . "\r\n";
+        $this->headers .= 'To: Mary <mary@example.com>' . "\r\n";
+        $this->headers .= 'From: Alex Lima <birthday@example.com>' . "\r\n";
 
         return $this->headers;
     }
