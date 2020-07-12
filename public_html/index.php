@@ -1,3 +1,4 @@
+<?php require_once('../app/index.php'); ?>
 <?php include 'header.php'; ?>
 
     <section class=" spad-3">

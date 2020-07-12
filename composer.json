@@ -1,0 +1,25 @@
+{
+    "name": "site-alexlima",
+    "authors": [
+        {
+            "name": "André Lima",
+            "email": "andrevflima@gmail.com",
+            "role": "Developer",
+            "homepage": "https://site-alexlima.000webhostapp.com/"
+        }
+    ],
+
+    "config": {
+        "vendor-dir": "vendor"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    
+    "require": {
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
