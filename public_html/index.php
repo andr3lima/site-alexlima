@@ -1,3 +1,4 @@
+<?php require_once('../app/index.php'); ?>
 <?php include 'header.php'; ?>
 
     <section class=" spad-3">
@@ -219,19 +220,19 @@
                             <h2>Registre agora!</h2>
                             <p>Preencha o formulário para receber meu ebook "NOME DO E-BOOK"</p>
                         </div>
-                        <form action="#" class="register-form">
+                        <form action="#" id="form-ebook" class="register-form">
                             <div class="row">
                                 <div class="col-lg-6">
                                     <label for="name">Nome</label>
-                                    <input type="text" id="name">
+                                    <input type="text" id="name" required="">
                                 </div>
                                 <div class="col-lg-6">
                                     <label for="mobile">Telefone</label>
-                                    <input type="text" id="mobile">
+                                    <input type="text" id="mobile" required="">
                                 </div>
                                 <div class="col-lg-12">
                                     <label for="email">E-mail</label>
-                                    <input type="text" id="email">
+                                    <input type="email" id="email" required="">
                                 </div>
                                 
                             </div>
