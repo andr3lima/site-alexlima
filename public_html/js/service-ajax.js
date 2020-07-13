@@ -16,13 +16,13 @@ $(function() {
         
         $.ajax({
             method: "POST",
-            url: "../email/service-email.php",
+            url: "../sendEmail.php",
             data: dados,
             success(response) {
-                alert(response)
+                alert("Olá "+$("#name").val()+", o E-book foi enviando para o seu email, favor verificar!")
             },
             fail(error) {
-                alert('Erro :(')
+                alert("Ocorreu um erro, falar com a equipe de supporte!")
                 console.log(error)
             }
         })
