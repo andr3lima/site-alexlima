@@ -26,7 +26,7 @@ if (sizeof($_POST) > 0) {
                 <p>
                     <b>Informações pessoais.</b><br>
                     <b>Nome:</b>".$_POST['nome']."<br>
-                    <b>E-mail:</b>".$_POST['email']."
+                    <b>E-mail:</b>".$_POST['email']."<br>
                     <b>Telefone:</b>".$_POST['telefone']."
                 </p>",
                 "servidor.aslap@gmail.com",
