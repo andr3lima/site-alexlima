@@ -73,12 +73,11 @@
                 <div class="col-lg-7">
                     <div class="about-text">
                         <h2>Quem sou eu</h2>
-                        <p class="first-para">Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium
-                            sollicitudin, nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate
-                            cursus a amet.</p>
-                        <p class="second-para">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida
-                            quam semper libero sit amet. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
-                            rhoncus, gravida quam semper libero sit amet.</p>
+                        <p class="first-para">Formando em Administração de Empresas; Graduado em Educação Física; pós-graduado em Fisiologia do Exercício; pós-graduado em Reabilitação de Lesões e Doenças músculo esqueléticos; Primeiro Especialista na Metodologia KAATSU no N/NE (treinamento, reabilitação e performance). Hoje atuo como Personal Trainer onde aplico minha experiência/vivência na área da saúde para oferecer, ao invés de um simples serviço, um atendimento diferenciado ao cliente.
+                            Esse espaço aqui foi criado com a intenção de lhe proporcionar um melhor atendimento, mais próximo e mais humanizado.
+                            Missão: Proporcionar saúde, alegria e satisfação ao aluno, para uma maior qualidade de vida e bem estar.
+                            Visão: Desejamos trazer para a sociedade uma das melhores opções para qualidade de vida e bem estar e se tornar uma referência no ramo, como uma das melhores em questão de resultados.
+                            Valores: responsabilidade; ética; respeito; dedicação; humildade. Nesse caminho crescemos a cada dia.</p>
                         <a href="#" class="primary-btn">Ler mais</a>
                     </div>
                 </div>
@@ -162,7 +161,7 @@
                                 <p>Sem desconto na adesão do plano</p>
                             </li>
                         </ul>
-                        <a href="#" class="primary-btn membership-btn">Começar agora</a>
+                        <a href="form-plano.php?plano=1" class="primary-btn membership-btn">Começar agora</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -182,7 +181,7 @@
                                 <p>10% de desconto na adesão do plano</p>
                             </li>
                         </ul>
-                        <a href="#" class="primary-btn membership-btn">Começar agora</a>
+                        <a href="form-plano.php?plano=2" class="primary-btn membership-btn">Começar agora</a>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -202,7 +201,7 @@
                                 <p>15% de desconto na adesão do plano</p>
                             </li>
                         </ul>
-                        <a href="#" class="primary-btn membership-btn">Começar agora</a>
+                        <a href="form-plano.php?plano=3" class="primary-btn membership-btn">Começar agora</a>
                     </div>
                 </div>
             </div>

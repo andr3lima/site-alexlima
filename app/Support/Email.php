@@ -34,7 +34,7 @@ class Email
 
         $this->mail->SMTPAuth = true;
         $this->mail->SMTPSecure = "tls";
-        $this->mail->charset = "utf-8";
+        $this->mail->CharSet = "utf-8";
 
         $this->mail->Host = $this->config->host;
         $this->mail->Port = $this->config->port;
@@ -68,7 +68,7 @@ class Email
                 $from_email = $this->config->from_name;
             }
 
-            $this->mail->Subject = $this->data->Subject;
+            $this->mail->Subject = $this->data->subject;
             $this->mail->msgHTML($this->data->body); 
             $this->mail->addAddress($this->data->recipient_name, $this->data->recipient_email);
             $this->mail->setFrom($this->config->from_email, $this->config->from_name);

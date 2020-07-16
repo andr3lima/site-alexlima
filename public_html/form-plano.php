@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb-text">
-                        <h2>Contato</h2>
+                        <h2>CONSULTORIA ONLINE</h2>
                     </div>
                 </div>
             </div>
@@ -55,16 +55,26 @@
                 <div class="col-lg-8">
                     <div class="contact-form">
                         <h4>Mande uma mensagem</h4>
-                        <form action="#" id="form-contact">
+                        <form action="#" id="form-plano">
+                            <input type="hidden" id="tipo-plano" value="<?= $_GET['plano'] ?>">
                             <div class="row">
-                                <div class="col-lg-6">
-                                    <input type="text" id="name-contact" placeholder="Seu nome">
-                                </div>
-                                <div class="col-lg-6">
-                                    <input type="email" id="email-contact" placeholder="Seu e-mail">
+                                <div class="col-lg-12">
+                                    <input type="text" id="nome-plano" placeholder="Seu nome" required="">
                                 </div>
                                 <div class="col-lg-12">
-                                    <textarea placeholder="Deixe sua mensagem" id="msg-contact"></textarea>
+                                    <input type="text" id="telefone-plano" placeholder="Seu telefone" required="">
+                                </div>
+                                <div class="col-lg-12">
+                                    <input type="email" id="email-plano" placeholder="Seu e-mail" required="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" id="peso-plano" placeholder="Seu peso (kg)">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" id="altura-plano" placeholder="Sua altura (m)">
+                                </div>
+                                <div class="col-lg-12">
+                                    <textarea placeholder="Descreva seu objetivo" id="msg-plano"></textarea>
                                     <button type="submit">Enviar</button>
                                 </div>
                             </div>
