@@ -71,13 +71,11 @@
                     </div>
                 </div>
                 <div class="col-lg-7">
-                    <div class="about-text">
+                    <div class="about-text" id="sobre">
                         <h2>Quem sou eu</h2>
-                        <p class="first-para">Formando em Administração de Empresas; Graduado em Educação Física; pós-graduado em Fisiologia do Exercício; pós-graduado em Reabilitação de Lesões e Doenças músculo esqueléticos; Primeiro Especialista na Metodologia KAATSU no N/NE (treinamento, reabilitação e performance). Hoje atuo como Personal Trainer onde aplico minha experiência/vivência na área da saúde para oferecer, ao invés de um simples serviço, um atendimento diferenciado ao cliente.
+                        <p class="first-para">Formado em Administração de Empresas; Graduado em Educação Física; pós-graduado em Fisiologia do Exercício; pós-graduado em Reabilitação de Lesões e Doenças músculo esqueléticos; Primeiro Especialista na Metodologia KAATSU no N/NE (treinamento, reabilitação e performance). Hoje atuo como Personal Trainer onde aplico minha experiência/vivência na área da saúde para oferecer, ao invés de um simples serviço, um atendimento diferenciado ao cliente.
                             Esse espaço aqui foi criado com a intenção de lhe proporcionar um melhor atendimento, mais próximo e mais humanizado.
-                            Missão: Proporcionar saúde, alegria e satisfação ao aluno, para uma maior qualidade de vida e bem estar.
-                            Visão: Desejamos trazer para a sociedade uma das melhores opções para qualidade de vida e bem estar e se tornar uma referência no ramo, como uma das melhores em questão de resultados.
-                            Valores: responsabilidade; ética; respeito; dedicação; humildade. Nesse caminho crescemos a cada dia.</p>
+                            </p>
                         <a href="#" class="primary-btn">Ler mais</a>
                     </div>
                 </div>

@@ -250,6 +250,11 @@ ul, ol {
 .about-text img {
 	margin-bottom: 25px;
 }
+
+.about-text .at-author{
+	padding: 20px;
+	text-align: right;
+}
 .about-text .at-author h4 {
 	font-size: 22px;
 	color: #111111;
@@ -305,84 +310,7 @@ ul, ol {
 	margin-bottom: 0;
 }
 
-/*---------------------
-  Trainer Section
------------------------*/
 
-.trainer-section {
-	background: #f5f5f5;
-	padding-top: 90px;
-	padding-bottom: 190px;
-}
-.trainer-section.about-trainer {
-	background: #ffffff;
-}
-.single-trainer-item {
-	position: relative;
-}
-
-.single-trainer-item img {
-	min-width: 100%;
-}
-.single-trainer-item .trainer-text {
-	position: absolute;
-	left: 50%;
-	bottom: -55px;
-	text-align: center;
-	background: #ffffff;
-	width: 310px;
-	margin: 0 auto;
-	-webkit-transform: translateX(-155px);
-	-ms-transform: translateX(-155px);
-	transform: translateX(-155px);
-	-webkit-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
-	box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.15);
-	padding: 20px 30px 18px;
-	height: 90px;
-	-webkit-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	transition: all 0.5s;
-	overflow: hidden;
-}
-.single-trainer-item .trainer-text h5 {
-	font-size: 20px;
-	color: #086631;
-	font-weight: 600;
-	margin-bottom: 4px;
-}
-.single-trainer-item .trainer-text span {
-	font-size: 16px;
-	color: #24a056;
-}
-.single-trainer-item .trainer-text p {
-	margin-top: 7px;
-	opacity: 0;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-.single-trainer-item .trainer-text .trainer-social {
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-.single-trainer-item .trainer-text .trainer-social a {
-	display: inline-block;
-	font-size: 17px;
-	color: #111111;
-	margin-right: 25px;
-	-webkit-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-.single-trainer-item .trainer-text .trainer-social a:hover {
-	color: #24a056;
-}
-.single-trainer-item .trainer-text .trainer-social a:last-child {
-	margin-right: 0;
-}
 
 /*---------------------
   Banner Section
@@ -754,57 +682,8 @@ ul, ol {
 	font-size: 14px;
 	color: #6b6b6b;
 }
-/*---------------------
-  About Counter
------------------------*/
 
-.about-counter-text {
-	background: -webkit-gradient(linear, left top, right top, from(#0da04c), to(#3aba71));
-	background: -o-linear-gradient(left, #0da04c, #3aba71);
-	background: linear-gradient(to right, #0da04c, #3aba71);
-	overflow: hidden;
-	padding: 35px 65px 15px;
-}
-.about-counter-text .single-counter {
-	float: left;
-	margin-right: 180px;
-}
-.about-counter-text .single-counter:last-child {
-	margin-right: 0;
-}
-.about-counter-text .single-counter h1 {
-	font-size: 72px;
-	color: #ffffff;
-	display: inline-block;
-}
-.about-counter-text .single-counter span {
-	font-size: 72px;
-	color: #ffffff;
-	display: inline-block;
-	line-height: 80px;
-}
-.about-counter-text .single-counter p {
-	color: #ffffff;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-}
-/*---------------------
-  Gym Award Section
------------------------*/
 
-.award-text {
-	padding-top: 20px;
-}
-.award-text h2 {
-	font-size: 40px;
-	font-weight: 600;
-	color: #111111;
-	text-transform: uppercase;
-	margin-bottom: 20px;
-}
-.award-text p {
-	margin-bottom: 10px;
-}
 /*---------------------
   Gallery Section
 -----------------------*/
@@ -990,16 +869,12 @@ ul, ol {
 	.testimonial-slider.owl-carousel .owl-nav button.owl-next {
 		right: -95px;
 	}
-	.about-counter-text .single-counter {
-		margin-right: 110px;
-	}
+	
 	.about-text {
 		padding-top: 0;
 		padding-left: 20px;
 	}
-	.award-text {
-		padding-top: 0;
-	}
+	
 	.bd-text .blog-author .ba-text {
 		padding-top: 15px;
 	}
@@ -1037,9 +912,7 @@ ul, ol {
 		float: none;
 		margin: 5px 0 37px;
 	}
-	.award-text {
-		margin-bottom: 30px;
-	}
+
 	.classes-page-text .register-pic img {
 		min-width: 100%;
 	}
@@ -1066,9 +939,7 @@ ul, ol {
 	.testimonial-slider.owl-carousel .owl-nav button.owl-next {
 		right: -25px;
 	}
-	.about-counter-text .single-counter {
-		margin-right: 30px;
-	}
+	
 	.services-pic img {
 		height: auto;
 	}
@@ -1153,14 +1024,7 @@ ul, ol {
 		padding-left: 0;
 	}
 
-	.about-counter-text {
-		padding: 35px 35px 15px;
-	}
-	.about-counter-text .single-counter {
-		float: none;
-		margin-right: 0;
-		text-align: center;
-	}
+	
 	.schedule-table {
 		overflow: auto;
 	}
