@@ -16,7 +16,7 @@ $(function() {
         
         $.ajax({
             method: "POST",
-            url: "../sendEmail.php",
+            url: "../public_html/sendEmail.php",
             data: dados,
             success(response) {
                 alert("Olá "+$("#name").val()+", o E-book foi enviando para o seu email, favor verificar!")
@@ -43,7 +43,7 @@ $(function() {
         
         $.ajax({
             method: "POST",
-            url: "../sendEmail.php",
+            url: "../public_html/sendEmail.php",
             data: dados,
             success(response) {
                 alert("Sua menssagem foi enviada com sucesso!")
@@ -96,7 +96,7 @@ $(function() {
         
         $.ajax({
             method: "POST",
-            url: "../sendEmail.php",
+            url: "../public_html/sendEmail.php",
             data: dados,
             success(response) {
                 alert("Sua menssagem foi enviada com sucesso!")
